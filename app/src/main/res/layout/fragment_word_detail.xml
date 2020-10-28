@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="220dp" />
+
+    <TextView
+        android:id="@+id/wordmeaning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="250dp"
+        android:text="Word" />
+    <TextView
+        android:id="@+id/wordsample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="280dp" />
+
+</RelativeLayout>
